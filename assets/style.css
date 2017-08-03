@@ -1,0 +1,8 @@
+canvas {
+  border: 1px solid black;
+  border-radius: 50%;
+  /* opacity: 0.8; */
+  height: 700px;
+  width: 700px;
+}
+

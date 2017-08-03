@@ -2,12 +2,14 @@
 <html lang="en">
   <head>
     <title>Mandala Mania!</title>
+    <link rel="icon" href="assets/icon.png">
     <meta charset="UTF-8">
+    <link href="assets/style.css" type="text/css" rel="stylesheet">
     <script type="application/javascript" src="lib/bundle.js"></script>
     <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <!-- <link href="css/style.css" rel="stylesheet"> -->
-    <style>canvas {border: 1px solid red; border-radius: 50%;}</style>
+
 
   </head>
   <body>
@@ -15,18 +17,18 @@
       <h1 id="title">Mandala Mania</h1>
     </header>
     <section id="main">
-      <canvas id="canvas" height="700" width="700"></canvas>
+      <canvas id="canvas" height="1400" width="1400"></canvas>
     </section>
-    <div>
+    <div class="controllers">
       <label>pointer-size
-        <input id="pointer-size" type="range" min="1" max="15" value="5" />
+        <input id="pointer-size" type="range" min="1" max="25" value="5" />
       </label>
       <label>number of axes
         <input id="axes" type="range" min="1" max="36" value="24" />
       </label>
       <button id="reset" type="button">Reset</button>
       <label>color palette
-        <input id="color" type="color" value="#ffffff" />
+        <input id="color" type="color" value="#ffffff" autocomplete="on" />
       </label>
     </div>
     <audio class="meditative-tune">
