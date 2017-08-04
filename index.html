@@ -24,16 +24,16 @@
         <h1 id="title1">Mania</h1>
       </header>
       <div class="about-me">
-      <p class="about-text">The word Mandala (pronunciation mon- dah- lah) means "circle". A Mandala represents wholeness, a cosmic diagram reminding
+      <p id="about-text">The word Mandala (pronunciation mon- dah- lah) means "circle". A Mandala represents wholeness, a cosmic diagram reminding
         us of our relation to infinity, extending beyond and within our bodies and minds. The mandala appears to us in all aspects
         of life, the Earth, the Sun, the Moon and more obviously the circles of life encompassing friends, family and communities.
         Mandalas are circular designs symbolizing the notion that life is never ending.</p>
 
-        <p class="about-text"> mandala noun man·da·la \ˈmən-də-lə\ :</p>
+        <p id="about-text"> mandala noun man·da·la \ˈmən-də-lə\ :</p>
 
-        <p class="about-text">1: a Hindu or Buddhist graphic symbol of the universe; specifically : a circle enclosing a square with a deity
+        <p id="about-text">1: a Hindu or Buddhist graphic symbol of the universe; specifically : a circle enclosing a square with a deity
         on each side that is used chiefly as an aid to meditation</p>
-        <p class="about-text">2: a graphic and often symbolic pattern usually in the form of
+        <p id="about-text">2: a graphic and often symbolic pattern usually in the form of
         a circle divided into four separate sections or bearing a multiple projection of an image</p>
 
         <h3>Instructions</h3>
@@ -45,14 +45,23 @@
       </div>
     </div>
     <div id="main">
+      <canvas id="canvas" height="1400" width="1400"></canvas>
       <div class="controllers">
-        <label>Pointer Size
-          <input id="pointer-size" type="range" min="1" max="25" value="5" />
+        <label class="color-picker">Pointer Size
+          <span>
+            <input id="pointer-size" type="range" min="1" max="25" value="5" />
+          </span>
         </label>
-        <label>Number of Axes
-          <input id="axes" type="range" min="1" max="36" value="24" />
+        <label class="color-picker">Number of Axes
+          <span>
+            <input id="axes" type="range" min="1" max="36" value="24" />
+          </span>
         </label>
-        <button id="reset" type="button">Reset</button>
+        <label class="color-picker">
+          <button  id="reset" type="button">Reset</button>
+
+        </label>
+
 
         <label class="color-picker">Color Palette
           <span>
@@ -60,7 +69,6 @@
           </span>
         </label>
       </div>
-      <canvas id="canvas" height="1400" width="1400"></canvas>
     </div>
     <audio class="meditative-tune">
       <!-- <source src="horse.ogg" type="audio/ogg"> -->

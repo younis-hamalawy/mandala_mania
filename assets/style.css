@@ -3,8 +3,8 @@ canvas {
   border: 1px solid black;
   border-radius: 50%;
   /* opacity: 0.8; */
-  height: 600px;
-  width: 600px;
+  height: 550px;
+  width: 550px;
   margin: 2em;
 }
 
@@ -13,7 +13,7 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  margin-top: 2em;
+  margin-top: 1.2em;
   /* padding-left:2em; */
 }
 
@@ -29,7 +29,7 @@ header {
   background: url("ganesh-positive-vibration.png");
    background-position: bottom left;
    background-repeat:no-repeat;
-  background-size: 15em auto;
+  background-size: 13em auto;
   opacity: 0.6;
   top: 0;
   left: 5em;
@@ -60,25 +60,29 @@ header {
   padding-left: 0.15em;
 }
 
-.about-text, {
+#about-text {
    font-family: 'Open Sans', sans-serif;
    font-size: 1em;
    font-weight: 400;
    font-style: italic;
    color: #303030;
+   margin: 0.5em;
 }
 
 .instructions {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   font-weight: 400;
-  font-style: italic;
-  color: #303030;
+   font-style: italic;
+  color: rgba(251, 46, 1, 0.9);
+  margin: 0.1em;
 }
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
   font-weight: 400;
+  color: rgba(251, 46, 1, 0.9);
+  margin: 0.5em 0;
 }
 
 
@@ -91,7 +95,7 @@ label.color-picker {
   /* Border radius of outer border */
   padding: 5px;
   /* Space between outer border and color picker */
-  background: #fff;
+  background: transparent;
   /* Color between outer border and color picker */
   display: block;
   /* Contain color picker within label */
@@ -151,3 +155,26 @@ body {
   background-color: ivory;
 }
 
+.controllers {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Open Sans',
+  sans-serif;
+  padding: 0 0.5em;
+}
+
+#main {
+  margin: 3em 0;
+}
+
+#reset {
+  padding: 1em;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  font-family: 'Open Sans',
+  sans-serif;
+  justify-content: center;
+  margin-left: 2.7em;
+}

@@ -68,4 +68,4 @@ Bonus/Future Features
 - [ ] Allow the user to change what size of cursor they're drawing with
 - [ ] Automatic rainbow color change of the cursor
 - [ ] Save - Print your drawing
-- [ ] Drag a Ganesha from
+- [ ] Drag a Ganesha from a side panel on top of your image
