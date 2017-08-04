@@ -21,10 +21,14 @@ header {
   display: flex;
   flex-direction: column;
   max-width: 30vw;
+  background-image: url("ganesh-positive-vibration.png");
+  background-repeat:no-repeat;
+  background-position: bottom;
+  background-size: contain;
 }
 .about-me {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
+  font-size: .8em;
   padding: 2em 1em;
 }
 
@@ -32,14 +36,14 @@ header {
   font-size: 5em;
   font-family: 'Abril Fatface', cursive;
   font-weight: normal;
-  color: rgb(0, 220, 234);
+  color: #99cccc;
 }
 
 #title1 {
   font-size: 3.5em;
   font-family: 'Abril Fatface', cursive;
   font-weight: normal;
-  color: #303030;
+  color: #ff9966;
   padding-bottom: 0.12em;
   padding-left: 0.15em;
 }
