@@ -20,16 +20,28 @@ header {
 .about {
   display: flex;
   flex-direction: column;
-  max-width: 30vw;
-  background-image: url("ganesh-positive-vibration.png");
-  background-repeat:no-repeat;
-  background-position: bottom;
-  background-size: contain;
+  max-width:40vw;
+  /* background-image: url("ganesh-positive-vibration.png"); */
+}
+
+.about::after {
+  content: "";
+  background: url("ganesh-positive-vibration.png");
+   background-position: bottom left;
+   background-repeat:no-repeat;
+  background-size: 15em auto;
+  opacity: 0.6;
+  top: 0;
+  left: 5em;
+  bottom: 2em;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 .about-me {
   font-family: 'Open Sans', sans-serif;
   font-size: .8em;
-  padding: 2em 1em;
+  padding: 1em 1em;
 }
 
 #title {
@@ -48,13 +60,27 @@ header {
   padding-left: 0.15em;
 }
 
-.about-text {
+.about-text, {
    font-family: 'Open Sans', sans-serif;
    font-size: 1em;
    font-weight: 400;
    font-style: italic;
    color: #303030;
 }
+
+.instructions {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+  color: #303030;
+}
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
 
 label.color-picker {
   width: 150px;
