@@ -66,3 +66,5 @@ Allow the user to save to desk or print their image.
 
 ### Set background image to the drawing area
 Allow the user to drag and drop a Ganesha background to be the center of their mandala
+
+##### DISCLAIMER: This project was built with the help of the logic posted on https://github.com/ayyjohn/mandalamaker
