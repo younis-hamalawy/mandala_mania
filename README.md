@@ -18,7 +18,7 @@ Mandala Mania is drawing app. It utilizes rotational symmetry to multiply anythi
 
 ## Feature Highlights
 
-To allow the creation of multiple lines at a time, coordinates are captured whenever the user holds the mouse down and multile points are created at the same time at various coordinates with intervals equal to the number of axis choosen.
+To allow the creation of multiple lines at a time, coordinates are captured whenever the user holds the mouse down and multile points are created at the same time at various coordinates with intervals equal to the number of axis chosen.
 
 With every click on the draw area, the color cycles automatically through a 15 color array until the user chooses a color manually.
 
