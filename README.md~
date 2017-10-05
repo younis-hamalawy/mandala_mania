@@ -1,4 +1,4 @@
-# Mandala Mania
+# Mandala Maker
 [Live Version](https://younis-hamalawy.github.io/mandala_mania/)
 
 Mandala Mania is drawing app. It utilizes rotational symmetry to multiply anything the user draws a number of times. Mandala Mania lets the user create a masterpiece in seconds, humans love symmetry. Mandala Mania was built utilizing JavaScript and the EaselJS library from CreateJS to manipulate the HTML5 Canvas element.
